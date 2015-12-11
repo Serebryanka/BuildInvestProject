@@ -1,3 +1,25 @@
+.header__menu {
+  float: left;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
 .menu {
   list-style: none;
+}
+
+.menu__item {
+  float: left;
+  height: 33px;
+  list-style: none;
+  text-align: left;
+  line-height: 33px;
+  vertical-align: middle;
+}
+
+.menu__link {
+  display: block;
+  padding: 0 15px;
+  text-decoration: none;
 }

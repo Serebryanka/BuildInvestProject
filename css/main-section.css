@@ -1,0 +1,14 @@
+
+.main-section {
+  margin-left: 25%;
+  padding: 0;
+}
+
+.main-section__jobtype {
+  float: left;
+  width: 25%;
+  height: 200px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}

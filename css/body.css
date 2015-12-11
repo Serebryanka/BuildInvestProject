@@ -14,15 +14,16 @@
   -webkit-box-sizing: border-box;
 }
 
+.clearfix::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
 @media (max-width: 600px) {
 .flexible-container {
-    min-width: initial;
+    /*min-width: initial;*/
     width: 100%;
     padding: 0 10px;
 }
-
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
 }

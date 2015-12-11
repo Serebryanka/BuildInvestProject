@@ -1,5 +1,9 @@
-@import 'body.css';
+@import "body.css";
 
+@import "header.css";
 @import "navigation.css";
 
-@import "companies.css"
+@import "companies.css";
+@import "main-section.css";
+
+@import "footer.css"

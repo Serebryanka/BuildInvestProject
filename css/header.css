@@ -1,0 +1,44 @@
+.header-container {
+  position: relative;
+  /*background-image: url("../img/logo.jpg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;*/
+}
+
+.header__logo {
+  float: left;
+  width: 20%;
+}
+
+.header__headline-container {
+  float: left;
+  margin: 0 30px;
+  text-align: center;
+}
+
+.headline-container_main {
+  display: inline-block;
+  /*text-align: center;*/
+}
+
+.header__headline {
+  text-align: right;
+}
+
+.header__headline_sub {
+  text-align: right;
+}
+
+.feedback-container {
+  float: right;
+  -moz-transform: translate(0, 50%);
+  -ms-transform: translate(0, 50%);
+  -o-transform: translate(0, 50%);
+  -webkit-transform: translate(0, 50%);
+  transform: translate(0, 50%);
+}
+
+.button {
+  display: block;
+}
