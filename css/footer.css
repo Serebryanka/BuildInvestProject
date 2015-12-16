@@ -1,6 +1,6 @@
 .footer {
-background-color: #252525;
-color: #fefefe;
+  background-color: #252525;
+  color: #fefefe;
 }
 
 .footer-container {
@@ -10,8 +10,13 @@ color: #fefefe;
 
 .footer__contacts-title {
   margin-bottom: 30px;
+  padding-left: 35px;
   font-weight: normal;
   text-transform: uppercase;
+  background-image: url("../images/contacts_icon.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
 }
 
 .contacts_common {
@@ -39,5 +44,5 @@ color: #fefefe;
 .footer__copyright {
   padding: 15px 0;
   text-align: center;
-  background-color: #a63933;
+  background-color: #9C241D;
 }

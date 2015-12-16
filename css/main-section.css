@@ -1,3 +1,6 @@
+.body-container {
+  margin-bottom: 10px;
+}
 
 .main-section {
   margin-left: 27%;
@@ -8,21 +11,29 @@
 .main-section__jobtype {
   float: left;
   width: 33%;
-  height: 200px;
-  /*box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  color: #2b2a29;*/
+  min-height: 300px;
 }
 
 .jobtype {
+  display: block;
   margin: 0;
-  padding: 0 10px 20px 10px;
+  /*margin-bottom: 40px;*/
+  padding: 0 15px 30px 15px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
-  color: #2b2a29;
   text-align: center;
+  vertical-align: top;
+}
+
+.jobtype__link {
+  text-decoration: none;
+  color: #2b2a29;
+}
+
+.jobtype__picture {
+  width: 100%;
+  margin-bottom: 10px;
 }
 
 .jobtype__name {
