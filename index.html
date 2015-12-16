@@ -7,49 +7,82 @@
     <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
-    <header class="header clearfix">
-      <div class="header-container flexible-container clearfix">
-        <img class="header__logo" src="images/logo.jpg"/>
+    <header class="header">
+      <div class="header__container flexible-container clearfix">
+        <img class="header__logo" src="images/logo.png" alt="Центр Противопожарной Защиты">
         <div class="header__headline-container">
-          <div class="headline-container_main">
+          <div class="header__headline-container_main">
+            <div class="corner-border corner-border_top corner-border_left"></div>
+            <div class="corner-border corner-border_top corner-border_right"></div>
+            <div class="corner-border corner-border_bottom corner-border_left"></div>
+            <div class="corner-border corner-border_bottom corner-border_right"></div>
             <h1 class="header__headline">Центр противопожарной защиты</h1>
             <p class="header__headline_sub">Группа компаний</p>
           </div>
-          <h2 class="header__subheadline">Мы работаем для Вашей безопасности!</h2>
+          <h2 class="header__subheadline">Мы работаем для Вашей безопасности</h2>
         </div>
-        <div class="feedback-container">
-          <p>Телефон, часы работы</p>
-          <button class="button" type="">Закажите звонок</button>
-          <button class="button" type="">Задайте вопрос</button>
+        <div class="header__feedback-container">
+          <p class="feedback__phone feedback__text">
+            8(3843)45-28-85<br/>
+            8(3843)99-12-50<br/></p>
+          <p class="feedback__text feedback__text_small">факс: 46-57-17</p>
+          <p class="feedback__workhours feedback__text">
+            Время работы:<br/>
+            08:30-17:30<br/>
+            <span class="feedback__text_small">обед 12:30-13:00</span></p>
+          <button class="button" type="button">Закажите звонок</button>
+          <button class="button" type="button">Задайте вопрос</button>
         </div>
         <!-- <form action="" class="feedback__form">
 
         </form> -->
-        <nav class="header__menu">
-          <ul class="menu clearfix">
-            <li class="menu__item">
-              <a class="menu__link" href="">Виды работ</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="">Наши клиенты</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="">Отзывы</a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="">О нас</a>
-            </li>
-          </ul>
-        </nav>
+
       </div>
+
+      <nav class="header__menu">
+        <div class="header__menu-container flexible-container">
+        <ul class="menu clearfix">
+          <li class="menu__item">
+            <a class="menu__link" href="">Виды работ</a>
+            <ul class="menu__submenu submenu_jobtypes">
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Монтаж и техническое обслуживание систем охранно-пожарной сигнализации</a></li>
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Пожарный мониторинг</a></li>
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Огнезащитная и антикоррозийная обработка конструкций</a></li>
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Зарядка огнетушителей</a></li>
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Разработка документации по промышленной и пожарной безопасности</a></li>
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Аварийно-спасательная служба</a></li>
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Учебный центр</a></li>
+              <li class="submenu_jobtypes__item">
+                <a class="submenu_jobtypes__link" href="">Продажа пожарного оборудования</a></li>
+            </ul>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">Наши клиенты</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">Отзывы</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">О нас</a>
+          </li>
+        </ul>
+      </div>
+      </nav>
     </header>
 
     <div class="body-container flexible-container clearfix">
       <aside class="companies-container">
         <ul class="companies">
-          <h3>Компании</h3>
-          <li class="companies__item">
-            <a class="companies__link" href="">Институт промышленной и пожарной безопасности
+          <li class="companies__title">Компании</li>
+          <li class="companies__item companies__item_current">
+            <a class="companies__link" href="">Институт промышленной и пожарной безопасности</a>
           </li>
           <li class="companies__item">
             <a class="companies__link" href="">Комплексная пожарная безопасность</a>
@@ -72,21 +105,122 @@
         </ul>
       </aside>
       <section class="main-section clearfix">
-        <div class="main-section__jobtype">Монтаж и техническое обслуживание систем охранно-пожарной сигнализации, пожаротушения и видеонаблюдения</div>
-        <div class="main-section__jobtype">Пожарный мониторинг</div>
-        <div class="main-section__jobtype">Огнезащитная и антикоррозийная обработка конструкций</div>
-        <div class="main-section__jobtype">Зарядка огнетушителей</div>
-        <div class="main-section__jobtype">Разработка документации по промышленной и пожарной безопасности</div>
-        <div class="main-section__jobtype">Аварийно-спасательная служба</div>
-        <div class="main-section__jobtype">Учебный центр</div>
-        <div class="main-section__jobtype">Продажа пожарного оборудования</div>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Монтаж и техническое обслуживание систем охранно-пожарной сигнализации"
+              title="Монтаж и техническое обслуживание систем охранно-пожарной сигнализации">
+            <figcaption class="jobtype__name">Монтаж и техническое обслуживание систем охранно-пожарной сигнализации</figcaption>
+          </figure></a>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Пожарный мониторинг"
+              title="Пожарный мониторинг">
+            <figcaption class="jobtype__name">Пожарный мониторинг</figcaption>
+          </figure></a>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Огнезащитная и антикоррозийная обработка конструкций"
+              title="Огнезащитная и антикоррозийная обработка конструкций">
+            <figcaption class="jobtype__name">Огнезащитная и антикоррозийная обработка конструкций</figcaption>
+          </figure></a>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Зарядка огнетушителей"
+              title="Зарядка огнетушителей">
+            <figcaption class="jobtype__name">Зарядка огнетушителей</figcaption>
+          </figure></a>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Разработка документации по промышленной и пожарной безопасности"
+              title="Разработка документации по промышленной и пожарной безопасности">
+            <figcaption class="jobtype__name">Разработка документации по промышленной и пожарной безопасности</figcaption>
+          </figure></a>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Аварийно-спасательная служба"
+              title="Аварийно-спасательная служба">
+            <figcaption class="jobtype__name">Аварийно-спасательная служба</figcaption>
+          </figure></a>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Учебный центр"
+              title="Учебный центр">
+            <figcaption class="jobtype__name">Учебный центр</figcaption>
+          </figure></a>
+        <a href=""><figure class="main-section__jobtype jobtype">
+            <img class="jobtype__picture"
+              src="images/"
+              alt="Продажа пожарного оборудования"
+              title="Продажа пожарного оборудования">
+            <figcaption class="jobtype__name">Продажа пожарного оборудования</figcaption>
+        </figure></a>
       </section>
     </div>
+  <footer class="footer clearfix">
+<div class="footer-container flexible-container">
 
-    <footer class="footer clearfix">
-      <div class="footer-container flexible-constainer">
-        <p>Адреса, телефоны</p>
-      </div>
+  <h2 class="footer__contacts-title">Контакты</h2>
+    <p class="footer__contacts contacts_common">ООО УК "ЦЕНТР ПРОТИВОПОЖАРНОЙ ЗАЩИТЫ"<br/>
+    654005, РОССИЯ, Кемеровская область, г.Новокузнецк, пр.Строителей, 7/1А</p>
+      <div class="footer__contacts-group">
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО УК "ЦПЗ"</span>
+        <span class="contacts__email">cpz_kuz2@mail.ru</span>
+      </p>
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО "ИППБ"</span>
+        <span class="contacts__email">ippbnk@mail.ru</span>
+        <span class="contacts__phone">т. 8(3843) 45-28-85</span>
+      </p>
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО "ПАСЦ Кузбасса"</span>
+        <span class="contacts__email">Pasc_kuzbass_kuz2@mail.ru</span>
+        <span class="contacts__phone">т/ф. 8(3843) 46-57-17</span>
+      </p>
+    </div>
+    <div class="footer__contacts-group">
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО "ЦПЗ-Кузнецк"</span>
+        <span class="contacts__email">gornikovs@mail.ru</span>
+      </p>
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО "ЦПЗ Кузбасса"</span>
+        <span class="contacts__email">gornikovs@mail.ru</span>
+        <span class="contacts__phone">т. 8(3843) 99-12-00</span>
+      </p>
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО ТД "Прометей"</span>
+        <span class="contacts__email">td-prometey@mail.ru</span>
+        <span class="contacts__phone">т/ф. 8(3843) 99-12-50</span>
+      </p>
+    </div>
+    <div class="footer__contacts-group">
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО "Бизнес Навигация"</span>
+        <span class="contacts__email">sokolov@rdtc.ru</span>
+        <span class="contacts__phone">т. 8(3843) 74-93-91</span>
+      </p>
+    </div>
+    <div class="footer__contacts-group">
+      <p class="footer__contacts">
+        <span class="contacts__name">ООО "СЭН</span>
+        <span class="contacts__email">info@gpnk.ru</span>
+        <span class="contacts__phone">т. 8(3843) 38-41-22</span>
+      </p>
+    </div>
+
+</div>
+<div class="footer__copyright">
+  <p>&copy; 2015. Управляющая компания "Центр противопожарной защиты"</p>
+</div>
     </footer>
+
 </body>
 </html>

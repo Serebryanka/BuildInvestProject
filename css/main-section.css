@@ -1,14 +1,30 @@
 
 .main-section {
-  margin-left: 25%;
+  margin-left: 27%;
+  margin-right: 3%;
   padding: 0;
 }
 
 .main-section__jobtype {
   float: left;
-  width: 25%;
+  width: 33%;
   height: 200px;
+  /*box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #2b2a29;*/
+}
+
+.jobtype {
+  margin: 0;
+  padding: 0 10px 20px 10px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  color: #2b2a29;
+  text-align: center;
+}
+
+.jobtype__name {
+  text-transform: uppercase;
 }

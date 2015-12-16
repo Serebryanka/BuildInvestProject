@@ -1,3 +1,43 @@
 .footer {
+background-color: #252525;
+color: #fefefe;
+}
+
+.footer-container {
+  padding-left: 5%;
+  padding-top: 15px;
+}
+
+.footer__contacts-title {
+  margin-bottom: 30px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.contacts_common {
+  margin-bottom: 20px;
+}
+
+.footer__contacts {
+  display: block;
+  text-align: left;
+}
+
+.contacts__name,
+.contacts__email,
+.contacts__phone {
+  display: inline-block;
+  /*float: left;*/
+  width: 220px;
+  text-align: left;
+}
+
+.footer__contacts-group {
+  margin-bottom: 30px;
+}
+
+.footer__copyright {
+  padding: 15px 0;
   text-align: center;
+  background-color: #a63933;
 }
