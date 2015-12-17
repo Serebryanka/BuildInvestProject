@@ -139,13 +139,11 @@
   position: relative;
   display: block;
   margin-top: 15px;
-  height: 50px;
+  padding: 15px 0;
   width: 100%;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
-  line-height: 50px;
-  vertical-align: middle;
   color: #252525;
   text-transform: uppercase;
   background-color: #fefefe;
@@ -155,17 +153,25 @@
   border-radius: 10px;
 }
 
-.button__image_request {
-  float: left;
-  width: 25px;
-  margin-left: 10px;
-  margin-top: 7px;
-  /*margin-right: 10px;*/
+.button_call {
+  background-image: url("../images/call.png");
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  background-size: 20px auto;
 }
 
-.button__image_call {
-  float: left;
-  width: 20px;
-  margin-top: 10px;
-  margin-left: 10px;
+.button_request {
+  background-image: url("../images/request.png");
+  background-repeat: no-repeat;
+  background-position: 10px 50%;
+  background-size: 25px auto;
+}
+
+.button__label {
+  display: inline;
+  margin-left: 30px;
+}
+
+.button:hover {
+  cursor: pointer;
 }
