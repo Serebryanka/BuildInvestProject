@@ -10,9 +10,9 @@
   background-image: url("../images/companies_menu.png");
   background-size: cover;
   border: 2px solid #dbdbdb;
-  border-radius: 7px;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
+  border-radius: 7px;
 }
 
 .companies__title {
