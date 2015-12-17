@@ -27,7 +27,7 @@
 }
 
 .menu__link {
-  padding: 15px 25px;
+  padding: 10px 25px;
   color: #dadada;
   /*width: 140px;*/
   /*height: 50px;*/
@@ -39,7 +39,7 @@
   color: #fefefe;
 }
 
-.menu__link_submenu:hover {
+.menu__link_submenu {
   background-image: url("../images/menu_arrow.png");
   background-repeat: no-repeat;
   background-position: 94% 55%;
@@ -53,6 +53,7 @@
   display: none;
   position: absolute;
   top: 120%;
+  left: 15px;
   list-style: none;
   background-color: #252525;
   border: 1px solid #dbdbdb;
@@ -63,13 +64,10 @@
 }
 
 .submenu_jobtypes__link {
-  width: 400px;
-  padding: 10px 0 10px 10px;
+  width: 380px;
+  padding: 10px;
   text-align: left;
   color: #E9E9E9;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
 }
 
 .submenu_jobtypes__item {

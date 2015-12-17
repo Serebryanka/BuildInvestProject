@@ -4,20 +4,21 @@
 
 .main-section {
   margin-left: 27%;
-  margin-right: 3%;
+  margin-right: 2%;
   padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .main-section__jobtype {
-  float: left;
-  width: 33%;
-  min-height: 300px;
+  display: inline-block;
+  width: 32%;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .jobtype {
-  display: block;
-  margin: 0;
-  /*margin-bottom: 40px;*/
   padding: 0 15px 30px 15px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
