@@ -67,9 +67,9 @@
   padding: 10px 0 10px 10px;
   text-align: left;
   color: #E9E9E9;
-  box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .submenu_jobtypes__item {
