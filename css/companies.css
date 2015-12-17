@@ -1,9 +1,11 @@
 .companies-container {
   float: left;
-  width: 25%;
+  width: 280px;
 }
 
 .companies {
+  margin: 0;
+  padding: 0;
   list-style: none;
   background-image: url("../images/companies_menu.png");
   background-size: cover;

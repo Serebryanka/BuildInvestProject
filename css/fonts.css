@@ -1,26 +1,5 @@
-@font-face{
-	font-family: 'DroidSerifRegular';
-	src: local(DroidSerifRegular), url(../fonts/DroidSerifRegular.ttf);
-}
-@font-face{
-	font-family: 'DroidSerifItalic';
-	src: local(DroidSerifItalic), url(../fonts/DroidSerifItalic.ttf);
-}
-@font-face{
-	font-family: 'DroidSerifBold';
-	src: local(DroidSerifBold), url(../fonts/DroidSerifBold.ttf);
-}
-
-@font-face{
-	font-family: 'DroidSansRegular';
-	src: local(DroidSansRegular), url(../fonts/DroidSansRegular.ttf);
-}
-
-@font-face{
-	font-family: 'DroidSansBold';
-	src: local(DroidSerifBold), url(../fonts/DroidSansBold.ttf);
-}
+@import url(https://fonts.googleapis.com/css?family=PT+Serif|PT+Sans&subset=cyrillic-ext,cyrillic);
 
 body {
-	font-family: 'DroidSansRegular';
+	font-family: 'PT Sans', sans-serif;
 }

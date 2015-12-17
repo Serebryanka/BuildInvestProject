@@ -1,6 +1,7 @@
 .header {
+  margin: 0;
   margin-bottom: 15px;
-  /*background-color: #252525;*/
+  padding: 0;
   color: #fefefe;
   background-image: url("../images/header_background.png");
   background-repeat: no-repeat;
@@ -16,7 +17,7 @@
 
 .header__logo {
   float: left;
-  margin-left: 2%;
+  margin-left: 3%;
   width: 16%;
   margin-top: 30px;
 }
@@ -25,7 +26,6 @@
   float: right;
   width: 75%;
   margin-bottom: 25px;
-  /*margin-left: 4%;*/
 }
 
 .header-wrapper_top,
@@ -78,17 +78,23 @@
   border-bottom: 1px solid #fefefe;
 }
 
+.header__headline,
+.header__headline_sub,
+.header__subheadline {
+  margin: 0;
+  padding: 0;
+}
+
 .header__headline {
   margin-bottom: 10px;
   font-size: 2rem;
-  font-family: "DroidSerifBold";
+  font-family: 'PT Serif', serif;
   text-transform: uppercase;
 }
 
 .header__headline_sub {
+  font-family: "Arial", sans-serif;
   font-size: 1.3rem;
-  font-weight: normal;
-  /*letter-spacing: 0.05em;*/
 }
 
 .header__subheadline {
@@ -98,25 +104,25 @@
 }
 
 .header__feedback {
-  width: 26%;
+  width: 28%;
 }
 
 .feedback__details-container {
   position: absolute;
   bottom: 0;
-  right: 3%;
+  right: 0;
 }
 
 .feedback__buttons-container {
   float: right;
-  margin-right: 3%;
 }
 
 .feedback__text {
+  margin: 0;
+  padding: 0;
   text-align: right;
   font-size: 1rem;
   line-height: 1.2rem;
-  /*letter-spacing: 0.02em;*/
   font-weight: bold;
 }
 
@@ -128,7 +134,6 @@
   font-size: 1.3rem;
   line-height: 1.5rem;
   letter-spacing: 0.05em;
-  font-weight: bold;
 }
 
 .feedback__workhours {
@@ -167,7 +172,6 @@
 }
 
 .button__label {
-  display: inline;
   margin-left: 30px;
 }
 

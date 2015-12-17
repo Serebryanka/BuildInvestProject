@@ -8,6 +8,8 @@
 }
 
 .menu {
+  margin: 0;
+  padding: 0;
   display: inline-block;
   list-style: none;
 }
@@ -29,9 +31,6 @@
 .menu__link {
   padding: 10px 25px;
   color: #dadada;
-  /*width: 140px;*/
-  /*height: 50px;*/
-  /*margin-left: 50px;*/
 }
 
 .menu__link:hover,
@@ -50,10 +49,12 @@
 }
 
 .submenu_jobtypes {
-  display: none;
   position: absolute;
   top: 120%;
   left: 15px;
+  display: none;
+  margin: 0;
+  padding: 0;
   list-style: none;
   background-color: #252525;
   border: 1px solid #dbdbdb;
@@ -73,6 +74,7 @@
 .submenu_jobtypes__item {
   border-bottom: 1px dashed #dbdbdb;
 }
+
 .submenu_jobtypes__item:last-of-type {
   border-bottom: none;
 }

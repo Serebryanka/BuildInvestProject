@@ -4,11 +4,11 @@
 }
 
 .footer-container {
-  padding-left: 5%;
   padding-top: 15px;
 }
 
 .footer__contacts-title {
+  margin: 0;
   margin-bottom: 30px;
   padding-left: 35px;
   font-weight: normal;
@@ -19,30 +19,35 @@
   background-size: contain;
 }
 
-.contacts_common {
-  margin-bottom: 20px;
-}
-
 .footer__contacts {
   display: block;
+  margin: 0;
   text-align: left;
+}
+
+.contacts_common {
+  margin-bottom: 20px;
 }
 
 .contacts__name,
 .contacts__email,
 .contacts__phone {
   display: inline-block;
-  /*float: left;*/
   width: 220px;
   text-align: left;
 }
 
 .footer__contacts-group {
   margin-bottom: 30px;
+  padding: 0;
 }
 
 .footer__copyright {
   padding: 15px 0;
   text-align: center;
   background-color: #9C241D;
+}
+
+.footer__copyright-text {
+  margin: 0;
 }
