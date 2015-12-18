@@ -9,7 +9,7 @@
 }
 
 .header__container {
-  padding-top: 20px;
+  padding-top: 50px;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -17,9 +17,8 @@
 
 .header__logo {
   float: left;
-  margin-left: 3%;
-  width: 16%;
-  margin-top: 30px;
+  margin-left: 40px;
+  width: 200px;
 }
 
 .header-wrapper {
@@ -36,7 +35,7 @@
 .header__headline-container_main,
 .header__headline-container_sub {
   float: left;
-  width: 67%;
+  width: 66.7%;
   text-align: center;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -101,17 +100,21 @@
 }
 
 .header__feedback {
-  width: 28%;
+  width: 240px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .feedback__details-container {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
 }
 
 .feedback__buttons-container {
   float: right;
+  text-align: right;
 }
 
 .feedback__text {
@@ -138,11 +141,10 @@
 }
 
 .button {
-  position: relative;
-  display: block;
+  display: inline-block;
   margin-top: 15px;
   padding: 15px 0;
-  width: 100%;
+  width: 230px;
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
