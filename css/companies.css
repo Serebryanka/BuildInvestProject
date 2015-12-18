@@ -9,7 +9,6 @@
   list-style: none;
   background-image: url("../images/companies_menu.png");
   background-size: cover;
-  border: 2px solid #dbdbdb;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   border-radius: 7px;
@@ -21,7 +20,7 @@
   font-weight: bold;
   text-align: center;
   color: #dadada;
-  border-bottom: 3px solid #dbdbdb;
+  border-bottom: 3px solid #ffffff;
 }
 
 .companies__link {

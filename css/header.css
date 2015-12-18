@@ -31,9 +31,6 @@
 .header-wrapper_top,
  .header-wrapper_bottom {
   position: relative;
-  /*box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;*/
 }
 
 .header__headline-container_main,
@@ -152,7 +149,6 @@
   color: #252525;
   text-transform: uppercase;
   background-color: #fefefe;
-  border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
