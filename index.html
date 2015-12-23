@@ -302,6 +302,47 @@
   <p class="footer__copyright-text">&copy; 2015. Управляющая компания "Центр противопожарной защиты"</p>
 </div>
     </footer>
-
+    <div class="r5mFeedback-container">
+    <div class="r5mFeedback">
+      <form action="/feedback" class="r5mFeedback__form">
+        <button class="r5mFeedback__close-button">X</button>
+        <h2 class="r5mFeedback__form__header">Задайте вопрос</h2>
+        <div class="r5mFeedback__input-wrapper">
+          <input
+          class="r5mFeedback__input"
+          type="text"
+          id="name"
+          name="name"
+          required/>
+          <label class="r5mFeedback__label" for="name">Имя*</label>
+        </div>
+        <div class="r5mFeedback__input-wrapper">
+        <input
+          class="r5mFeedback__input"
+          type="text"
+          id="phone"
+          name="phone"
+          required/>
+          <label class="r5mFeedback__label" for="phone">Телефон*</label>
+        </div>
+        <div class="r5mFeedback__input-wrapper">
+        <input
+          class="r5mFeedback__input"
+          id="email"
+          name="email"
+          type="text"/>
+          <label class="r5mFeedback__label" for="email">E-mail</label>
+        </div>
+        <textarea
+          class="r5mFeedback__text"
+          placeholder="Комментарии"
+          name="text"></textarea>
+        <button
+          type="submit"
+          class="r5mFeedback__submit-button"
+          >Задать вопрос</button>
+      </form>
+    </div>
+    </div>
 </body>
 </html>
