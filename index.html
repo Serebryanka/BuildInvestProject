@@ -44,9 +44,6 @@
               </button>
             </div>
           </div>
-        <!-- <form action="" class="feedback__form">
-
-        </form> -->
       </div>
     </div>
     <div class="navigation_container">
@@ -301,7 +298,41 @@
 <div class="footer__copyright">
   <p class="footer__copyright-text">&copy; 2015. Управляющая компания "Центр противопожарной защиты"</p>
 </div>
-    </footer>
+</footer>
+
+<div class="r5mFeedback-container">
+<div class="r5mFeedback">
+  <form action="/feedback" class="r5mFeedback__form">
+    <button class="r5mFeedback__close-button">X</button>
+    <h2 class="r5mFeedback__form__header">Задайте вопрос</h2>
+      <input
+      class="r5mFeedback__input"
+      type="text"
+      name="name"
+      required
+      placeholder="Имя*"/>
+    <input
+      class="r5mFeedback__input"
+      type="text"
+      name="phone"
+      required
+      placeholder="Телефон*"/>
+    <input
+      class="r5mFeedback__input"
+      name="email"
+      type="text"
+      placeholder="E-mail"/>
+    <textarea
+      class="r5mFeedback__text"
+      placeholder="Комментарии"
+      name="text"></textarea>
+    <button
+      type="submit"
+      class="r5mFeedback__submit-button"
+      >Задать вопрос</button>
+  </form>
+</div>
+</div>
 
 </body>
 </html>
