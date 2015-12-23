@@ -1,13 +1,16 @@
-.header__menu {
+.navigation_container {
   clear: both;
   margin: 0;
-  margin-top: 15px;
   padding: 0;
   text-align: center;
   background-color: #252525;
 }
 
-.menu {
+.r5mMenu {
+  margin-top: 15px;
+}
+
+.r5mMenu__main {
   margin: 0;
   padding: 0;
   display: block;
@@ -16,26 +19,26 @@
   text-align: center;
 }
 
-.menu__item {
+.r5mMenu__main__item {
   position: relative;
   display: inline-block;
 }
 
-.menu__link,
-.submenu_jobtypes__link {
+.r5mMenu__main__item__link,
+.r5mMenu__main__submenu__item__link {
   display: block;
   font-size: 1rem;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.menu__link {
+.r5mMenu__main__item__link {
   padding: 10px 25px;
   color: #dadada;
 }
 
-.menu__link:hover,
-.submenu_jobtypes__link:hover {
+.r5mMenu__main__item__link:hover,
+.r5mMenu__main__submenu__item__link:hover {
   color: #fefefe;
 }
 
@@ -45,11 +48,11 @@
   background-position: 94% 55%;
 }
 
-.menu__item:hover .menu__submenu {
+.r5mMenu__main__item:hover .r5mMenu__main__submenu {
   display: block;
 }
 
-.submenu_jobtypes {
+.r5mMenu__main__submenu {
   position: absolute;
   top: 100%;
   left: 15px;
@@ -61,24 +64,25 @@
   border-top: 5px solid #ffffff;
 }
 
-.submenu_jobtypes:hover {
+.r5mMenu__main__submenu:hover {
   display: block;
 }
 
-.submenu_jobtypes__link {
+.r5mMenu__main__submenu__item__link {
   width: 380px;
   padding: 10px;
   text-align: left;
+  white-space: normal;
   color: #E9E9E9;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-.submenu_jobtypes__item {
+.r5mMenu__main__submenu__item {
   border-bottom: 1px dashed #dbdbdb;
 }
 
-.submenu_jobtypes__item:last-of-type {
+.r5mMenu__main__submenu__item:last-of-type {
   border-bottom: none;
 }
