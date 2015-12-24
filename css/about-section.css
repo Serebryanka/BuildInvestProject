@@ -1,0 +1,27 @@
+.r5m-content {
+  margin: 0;
+  margin-left: 330px;
+  padding: 0;
+}
+
+.r5m-content h2 {
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.r5m-content p {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 1rem;
+  text-indent: 15px;
+}
+
+.r5m-content p:last-of-type {
+  text-indent: 0;
+}
