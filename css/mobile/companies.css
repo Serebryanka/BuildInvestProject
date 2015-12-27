@@ -1,31 +1,42 @@
 @media (max-width: 600px) {
 
-  .companies__mobile__container {
+  .companies-container {
     display: block;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    float: none;
     width: 100%;
-    background-color: #252525;
+    margin: 0;
+    padding: 0;
   }
 
-  .companies__mobile__link {
+  .companies {
+    background: #252525;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+  }
+
+  .companies__title {
     display: block;
     padding: 7px 15px;
     font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
+    text-align: left;
     color: #ffffff;
     background-image: url("../../images/companies_button_mobile.png");
     background-repeat: no-repeat;
-    background-position: 98% center;
+    background-position: 97% center;
     background-size: 20px;
+    border: none;
   }
 
-  .companies-container {
-    display: none;
+  .companies__item {
+    /*display: none;*/
   }
 
+  .companies__link {
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 2px solid #d1d1d1;
+  }
 
 }

@@ -1,4 +1,30 @@
 @media (max-width: 600px) {
-  
+
+  .footer-container {
+    padding: 25px 15px;
+    text-align: center;
+  }
+
+  .contacts_common {
+    margin: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .footer__contacts-group {
+    display: none;
+  }
+
+  p.mobile-only {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  button.mobile-only {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
 
 }
