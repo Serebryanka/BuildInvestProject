@@ -96,6 +96,10 @@
     text-align: left;
     color: #252525;
     border-bottom: 2px solid #d4d4d4;
+    background-image: url("../../images/menu_mobile_arrow.png");
+    background-repeat: no-repeat;
+    background-position: 95% center;
+    background-size: 25px;
   }
 
   .r5m-mobile-menu .r5mMenu__main__submenu {

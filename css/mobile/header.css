@@ -20,15 +20,6 @@
     background: none;
   }
 
-  .background_mobile {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 30%;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-
   .header__logo {
     float: none;
     position: relative;
@@ -56,6 +47,7 @@
   .header__headline-container_main,
   .header__headline-container_sub {
     float: none;
+    position: relative;
     display: block;
     width: 100%;
     padding: 15px 20px 0 20px;
@@ -63,6 +55,7 @@
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    z-index: 2;
   }
 
   .header__headline {
@@ -75,10 +68,20 @@
   }
 
   .header__headline-container_sub_mobile {
+    position: relative;
     display: block;
     width: 100%;
     margin: 20px 0 25px;
     text-align: center;
+  }
+
+  .background_mobile {
+    position: absolute;
+    top: -1000%;
+    left: -15px;
+    bottom: -16px;
+    right: -15px;
+    background-color: rgba(0, 0, 0, 0.5);
   }
 
   .feedback__details-container {
@@ -94,9 +97,11 @@
   }
 
   .header__subheadline_mobile {
+    position: relative;
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
+    z-index: 2;
   }
 
   .feedback__text {
