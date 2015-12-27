@@ -3,7 +3,7 @@
   margin-bottom: 15px;
   padding: 0;
   color: #fefefe;
-  background-image: url("../images/header_background.png");
+  background-image: url("../images/header_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -93,11 +93,11 @@
   font-size: 1.3rem;
 }
 
-.header__subheadline {
+.header__subheadline,
+.header__subheadline_mobile {
   font-size: 1.5rem;
   font-weight: normal;
   text-transform: uppercase;
-
 }
 
 .header__feedback {
@@ -194,4 +194,11 @@
 
 .button:hover {
   cursor: pointer;
+}
+
+.header__headline-container_sub_mobile,
+.feedback__workhours_mobile,
+.companies__mobile__container,
+.mobile-only {
+  display: none;
 }

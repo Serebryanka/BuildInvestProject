@@ -1,0 +1,126 @@
+@media (max-width: 600px) {
+
+  .header__container {
+    position: relative;
+    padding-top: 65px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url("../../images/header_background_mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .background_mobile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 40%;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .header__logo {
+    float: none;
+    position: relative;
+    display: block;
+    width: 130px;
+    margin: 0 auto;
+    z-index: 2;
+  }
+
+  .header-wrapper {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .header-wrapper_top {
+    margin-bottom: 20px;
+  }
+
+  .header-wrapper_bottom {
+    margin-bottom: 50px;
+  }
+
+  .header__headline-container_main,
+  .header__headline-container_sub {
+    float: none;
+    display: block;
+    width: 100%;
+    padding: 15px 20px 0 20px;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  .header__headline {
+    font-size: 1.45rem;
+    font-weight: normal;
+  }
+
+  .header__headline_sub {
+    font-size: 1.1rem;
+  }
+
+  .header__headline-container_sub_mobile {
+    display: block;
+    width: 100%;
+    margin: 20px 0 25px;
+    text-align: center;
+  }
+
+  .feedback__details-container {
+    display: block;
+    width: 100%;
+    position: static;
+    background-color: ;
+  }
+
+  .header__headline-container_sub,
+  .feedback__workhours {
+    display: none;
+  }
+
+  .header__subheadline_mobile {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .feedback__text {
+    font-size: 0.9rem;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .feedback__phone {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+  }
+
+  .feedback__workhours_mobile {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .feedback__buttons-container {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+
+}

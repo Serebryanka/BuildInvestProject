@@ -1,0 +1,14 @@
+@media (max-width: 600px) {
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-width: initial;
+  }
+
+  .flexible-container {
+    min-width: initial;
+    width: 100%;
+    padding: 0 15px;
+  }
+}
