@@ -10,13 +10,8 @@
 .footer__contacts-title {
   margin: 0;
   margin-bottom: 20px;
-  /*padding-left: 35px;*/
   font-weight: bold;
   text-transform: uppercase;
-  /*background-image: url("../images/contacts_icon.png");
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: contain;*/
 }
 
 .footer__contacts {
@@ -39,15 +34,6 @@
   background-position: left;
   background-size: 15px;
 }
-
-/*
-.contacts__name,
-.contacts__email,
-.contacts__phone {
-  display: inline-block;
-  width: 220px;
-  text-align: left;
-}*/
 
 .footer__contacts-group {
   margin-bottom: 30px;
